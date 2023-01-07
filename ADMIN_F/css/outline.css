@@ -1,0 +1,171 @@
+@media only screen and (max-width:390px) {
+img{
+width: 150px;
+height: 70px;
+}
+.material-icons{
+float:right;
+margin-top: 0;
+margin-right: 10px;
+
+}
+}
+.headertitle{
+text-align:center;
+font-family:'Times New Roman', Times, serif;
+font-size: 36px;
+font-weight:700;
+color:rgb(62, 62, 62);
+margin-top: 8px;
+text-indent: -20px;
+}
+@media only screen and (max-width:990px) {
+.container .headertitle{
+display: none;
+}
+}
+
+@media only screen and(max-width: 310px){
+.container > .academic-details{
+display: none;
+}
+}
+
+#wrapper {
+overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+min-height: 100vh;
+margin-left: -15rem;
+-webkit-transition: margin .25s ease-out;
+-moz-transition: margin .25s ease-out;
+-o-transition: margin .25s ease-out;
+transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+padding: 0.875rem 1.25rem;
+font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+width: 15rem;
+}
+
+#page-content-wrapper {
+min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+margin-left: 0;
+}
+
+@media (min-width: 768px) {
+#sidebar-wrapper {
+margin-left: 0;
+}
+
+#page-content-wrapper {
+min-width: 0;
+width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+margin-left: -15rem;
+}
+}
+
+
+fieldset{
+border: 1px groove #ddd !important;
+padding: 0 1.4em 1.4em 1.4em !important;
+margin: 0 0 1.5em 0 !important;
+-webkit-box-shadow: 0px 0px 0px 0px #000;
+box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend {
+font-size: 1.2em !important;
+font-weight: bold !important;
+text-align: left !important;
+}
+
+.text-on-pannel {
+background: #fff none repeat scroll 0 0;
+height: auto;
+margin-left: 20px;
+padding: 3px 5px;
+position: absolute;
+margin-top: -47px;
+border: 1px solid #337ab7;
+border-radius: 8px;
+}
+
+.panel {
+/* for text on pannel */
+margin-top: 27px !important;
+}
+
+.panel-body {
+padding-top: 30px !important;
+}
+
+table{
+border-collapse: collapse;
+border: 1px solid black;
+
+}
+
+th,td{
+margin: 2px;
+padding: 5px;
+border: 1px solid black;
+
+}
+
+
+@media only screen and (max-width:390px) {
+table{
+width: 200px;
+}
+}
+
+@media only screen and(max-width: 310px){
+.container > .academic-details{
+display: none;
+}
+}
+
+.viewbtn {
+background-color: #f1f1f1;
+border: none;
+color: black;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px;
+width : 180px;
+height : 30px;
+opacity : 1.1;
+}
+
+.viewbtn:hover {
+background-color: #ddd;
+}
+
+.row {
+display: grid;
+}
+
+.container {
+padding : 3px 2px 2px 2px;
+
+}
+
+.col-sm {
+padding : 2px 2px 2px 2px;
+float: left;
+}

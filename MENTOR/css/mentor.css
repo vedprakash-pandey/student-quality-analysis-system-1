@@ -1,0 +1,261 @@
+@media only screen and (max-width:390px) {
+img{
+width: 150px;
+height: 70px;
+}
+.headerlogo .material-icons{
+float: right;
+margin-top: 0;
+margin-right: 10px;
+
+}
+}
+
+.headertitle{
+text-align:center;
+font-family:'Times New Roman', Times, serif;
+font-size: 36px;
+font-weight:700;
+color:rgb(62, 62, 62);
+margin-top: 8px;
+text-indent: -20px;
+}
+
+@media only screen and (max-width:990px) {
+.container .headertitle{
+display: none;
+}
+}
+
+.headerlogo i:hover{
+color: rgb(218, 218, 226);
+}
+
+.headerlogo a i{
+color: black;
+}
+.headerlogo a i:hover{
+color: rgb(218, 218, 226);
+}
+
+html {
+height: 100%;
+}
+
+body{
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background: rgb(182,180,219);
+background: linear-gradient(90deg, rgba(182,180,219,0.846673703661152) 0%, rgba(194,178,235,0.05395661682641806) 0%);
+}
+
+.navbar{
+clear: both;
+background: rgba(62, 24, 103, 0.899);
+}
+
+
+.navbar .navbar-brand {
+font-weight: bolder;
+}
+.navbar .navbar-brand span{
+color : cornsilk ;
+}
+
+
+.navbar .navbar-nav .nav-item {
+padding: 5px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+color: cornsilk ;
+font-weight:600;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+background: rgb(163, 143, 204) ;
+border-radius: 5px;
+color:black;
+}
+
+.navbar .navbar-nav .nav-item .dropdown .btn{
+color: cornsilk ;
+font-weight:600;
+margin-top: 2px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown .btn:hover{
+background: rgb(163, 143, 204);
+color:black;
+}
+
+.navbar .navbar-nav .nav-item .dropdown .dropdown-menu .dropdown-item:hover{
+background: rgb(180, 130, 226) ;
+color: white;
+font-weight: 600;
+}
+
+.navbar .form-inline .btn:hover{
+background: rgb(165, 154, 213);
+color:black;
+font-weight: 600;
+}
+
+
+@media only screen and (max-width:990px) {
+.navbar .nav-item button {
+margin-left: -14px;
+}
+#headerSearch {
+display:none;
+}
+.followus{
+display: none;
+}
+
+}
+
+
+fieldset{
+border: 1px groove #ddd !important;
+padding: 0 1.4em 1.4em 1.4em !important;
+margin: 0 0 1.5em 0 !important;
+-webkit-box-shadow: 0px 0px 0px 0px #000;
+box-shadow: 0px 0px 0px 0px #000;
+background-color: rgb(238, 240, 241);
+opacity: 0.9
+}
+
+legend {
+font-size: 1.2em !important;
+font-weight: bold !important;
+text-align: left !important;
+}
+
+label{
+color:rgb(24, 23, 23);
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.legend-design{
+font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+background-color: darkgrey;
+padding: 3px ;
+border-radius: 20px;
+}
+
+.legend-saveddesign {
+font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+background-color: rgb(50, 42, 77);
+color: blanchedalmond;
+padding: 5px ;
+text-align: center;
+border-radius: 20px;
+}
+
+@media only screen and (max-width:460px){
+.legend-saveddesign {
+font-size:small;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+background: rgb(182,180,219);
+background: linear-gradient(90deg, rgba(182,180,219,0.846673703661152) 0%, rgba(30,19,59,1) 0%);
+color: blanchedalmond;
+padding: 2px;
+text-align: center;
+}
+}
+
+table{
+background: rgb(236, 239, 240);
+opacity: 0.9;
+}
+
+.myFooter{
+color:rgb(255, 250, 250);
+font-weight:normal;
+background: rgb(182,180,219);
+background: linear-gradient(90deg, rgba(182,180,219,0.846673703661152) 0%, rgba(30,19,59,1) 0%);
+margin:0px auto;
+padding: 20px 0px 20px 0px;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+.footer .followus .text-center .list-unstyled .btn{
+color:white;
+}
+
+.footer .links .list-unstyled li a{
+color: white;
+}
+
+.footer .followus .text-center .list-unstyled .btn:hover{
+width: 40px;
+height: 40px;
+background-color: cadetblue;
+border-radius: 50%;
+}
+
+.comment-text{
+background: #f5d0d0;
+padding: 5px 10px;
+border:2px solid rgb(139, 14, 14);
+border-radius: 10px;
+color: rgb(109, 9, 9);
+font-weight: bold;
+margin-top:-8px;
+}
+
+.doc-text{
+    background: #d2ebf3;
+    padding: 5px 10px;
+    border:2px solid rgb(14, 104, 139);
+    border-radius: 10px;
+    color: rgb(9, 94, 109);
+    font-weight: bold;
+    margin-top:-8px;
+    }
+
+.blink-one {
+    animation: blinker-one 1s linear infinite;
+    }
+    @keyframes blinker-one {
+    0% {
+        opacity: 0;
+    }
+    }
+
+
+    .chip {
+        display: inline-block;
+        padding: 6px 25px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+        border-radius: 25px;
+        background-color: #f1f1f1;
+      }
+      
+      .chip img {
+        float: left;
+        margin: -8px 10px 0 -25px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+    
+      .username{
+          font-weight: bold;
+          margin: 20px 0 0 0;
+          font-size: large;
+    
+      }
